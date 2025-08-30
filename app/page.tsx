@@ -142,7 +142,7 @@ export default function ITServicesWebsite() {
                     <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6 italic">"{testimonial.content}"</p>
+                <p className="text-gray-600 mb-6 italic">&ldquo;{testimonial.content}&rdquo;</p>
                 <div>
                   <p className="font-bold text-gray-900">{testimonial.name}</p>
                   <p className="text-gray-500">{testimonial.role}</p>
@@ -304,7 +304,7 @@ export default function ITServicesWebsite() {
       message: ''
     });
 
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
       setFormData({
         ...formData,
         [e.target.name]: e.target.value
@@ -389,7 +389,7 @@ export default function ITServicesWebsite() {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                    rows="5"
+                    rows={5}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder="Descrieti problema sau necesitatea dvs..."
                   ></textarea>
