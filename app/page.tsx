@@ -550,8 +550,8 @@ export default function ITServicesWebsite() {
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
-              <p className="text-gray-300">+40 740 123 456</p>
-              <p className="text-gray-300">contact@itservices.ro</p>
+              <p className="text-gray-300">+40 758 936 255</p>
+              <p className="text-gray-300">elserv.services@gmail.com</p>
               <p className="text-gray-300">Craiova, Dolj</p>
             </div>
             <div>
