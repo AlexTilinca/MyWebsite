@@ -413,21 +413,21 @@ export default function ITServicesWebsite() {
                     <Phone className="w-6 h-6 mr-4 mt-1 text-blue-200" />
                     <div>
                       <p className="font-semibold">Telefon</p>
-                      <p className="text-blue-100">+40 740 123 456</p>
+                      <p className="text-blue-100">+40 758 936 255</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Mail className="w-6 h-6 mr-4 mt-1 text-blue-200" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-blue-100">contact@itservices.ro</p>
+                      <p className="text-blue-100">elserv.services@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <MapPin className="w-6 h-6 mr-4 mt-1 text-blue-200" />
                     <div>
                       <p className="font-semibold">Adresa</p>
-                      <p className="text-blue-100">Str. Tehnologiei nr. 123<br />Craiova, Dolj</p>
+                      <p className="text-blue-100">Str. Cantonului nr. 21<br />Livezi, Dolj</p>
                     </div>
                   </div>
                 </div>
