@@ -32,8 +32,10 @@ export default function ITServicesWebsite() {
     }
   ];
 
-  const testimonials = [
+  const testimonials = [1
+/*    
     {
+
       name: "Maria Popescu",
       role: "Manager, SC TechCorp SRL",
       content: "Servicii profesionale si prompte. Echipa noastra IT functioneaza perfect datorita lor!",
@@ -44,7 +46,7 @@ export default function ITServicesWebsite() {
       role: "Proprietar, Contabilitate Expert",
       content: "Reparatii hardware rapide si la preturi corecte. Recomand cu incredere!",
       rating: 5
-    }
+    }*/
   ];
 
   const HomePage = () => (
